@@ -4,4 +4,14 @@
         <name>fs.defaultFS</name>
         <value>hdfs://hadoop-master:9000/</value>
     </property>
+
+    <property>
+        <name>net.topology.script.file.name</name>
+        <value>/root/rack-topology.sh</value>
+    </property>
+
+    <property>
+        <name>net.topology.script.number.args</name>
+        <value>14</value>
+    </property>
 </configuration>
